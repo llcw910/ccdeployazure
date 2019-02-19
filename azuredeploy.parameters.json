@@ -3,13 +3,31 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "GEN-USER"
+      "value": "cnazrvm_adm"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "cnazrvm_password"
     },
     "dnsLabelPrefix": {
       "value": "GEN-UNIQUE"
+    },
+    "windowsOSVersion": {
+      "value": "2016-Datacenter"
+    },
+    "vmName": {
+      "value": "SimpleWinVM"
+    },
+    "vmSize": {
+      "value": "Standard_DS2_v2"
+    },
+    "dataDisks": {
+      "value": [
+        {
+          "diskSizeGB": 1023,
+          "lun": 0,
+          "createOption": "Empty"
+        }
+      ]
     }
   }
 }
